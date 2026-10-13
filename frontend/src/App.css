@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101310;
+  color: #f4f5f0;
+}
+
+.gym-app {
+  width: min(100% - 32px, 760px);
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.gym-header {
+  padding: 28px 0;
+  border-bottom: 1px solid #343a33;
+}
+
+.gym-header h1 {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.gym-header p,
+.eyebrow {
+  color: #b5f36a;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.welcome {
+  padding: 45px 0 30px;
+}
+
+.welcome h2 {
+  font-size: clamp(32px, 7vw, 56px);
+  margin: 12px 0;
+}
+
+.welcome h2 span {
+  color: #b5f36a;
+}
+
+.welcome > p:last-child,
+.booking-panel > p {
+  color: #b8beb5;
+  line-height: 1.6;
+}
+
+.booking-panel {
+  background: #1c211c;
+  border: 1px solid #383f36;
+  border-radius: 16px;
+  padding: 26px;
+}
+
+.booking-panel h2 {
+  margin-top: 0;
+}
+
+.booking-panel form {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.booking-panel label {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.booking-panel input,
+.booking-panel select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #4a5148;
+  background: #101310;
+  color: white;
+  font-size: 15px;
+}
+
+.booking-panel button {
+  margin-top: 12px;
+  padding: 15px;
+  background: #b5f36a;
+  color: #101310;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.booking-panel button:hover {
+  background: #c8ff89;
+}
+
+.demo-note {
+  margin-top: 22px;
+  font-size: 12px;
+}
