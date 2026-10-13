@@ -1,0 +1,5 @@
+node_modules/
+.env
+gym-booking.db
+gym-booking.db-shm
+gym-booking.db-wal
